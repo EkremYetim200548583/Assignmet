@@ -1,4 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>as11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Add Employee</a></li>
+                <li><a href="view.php">View Employees</a></li>
+            </ul>
+        </nav>
+        <img src="logo.jpg" alt="Company Logo">
+    </header>
 
+    <main>
+        <h1>View Employees</h1>
         <?php
         
         $servername = "localhost:3306";
@@ -62,4 +82,7 @@
             ?>
 
 
-  
+    </main>
+
+    <footer>
+        &copy; 
